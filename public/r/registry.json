@@ -75,7 +75,8 @@
           "target": "lib/auth/index.ts",
           "path": "src/lib/auth/index.ts"
         }
-      ]
+      ],
+      "docs": "1. Rename and edit .env.example-auth\n2. Run `npm --env-file=.env drizzle-kit push` to generate postgres tables\n3. Run `npm run dev` to start the server\n4. Visit http://localhost:3000/auth/access/page to test signin/signup\n5. Visit http://localhost:3000/auth/x/page to test protected route"
     }
   ]
 }
