@@ -22,7 +22,11 @@
         },
         {
           "type": "registry:block",
-          "path": "src/lib/auth/client.ts"
+          "path": "src/app/(auth)/access/page.tsx"
+        },
+        {
+          "type": "registry:block",
+          "path": "src/app/(auth)/x/page.tsx"
         }
       ]
     }

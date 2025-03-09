@@ -1,6 +1,6 @@
 "use client"
 
-import { signIn, signOut, signUp } from "@/lib/auth/client"
+import { authClient } from "@/lib/auth/client"
 import { useRouter } from "next/navigation"
 
 export const SignIn = () => {
@@ -9,7 +9,7 @@ export const SignIn = () => {
   return (
     <button
       onClick={async () => {
-        await signIn.email({
+        await authClient.signIn.email({
           email: "johndoe@acme.com",
           password: "JohnDoeAcmeCom",
         })
@@ -27,7 +27,7 @@ export const SignUp = () => {
   return (
     <button
       onClick={async () => {
-        await signUp.email({
+        await authClient.signUp.email({
           name: "John Doe",
           email: "johndoe@acme.com",
           password: "JohnDoeAcmeCom",
@@ -46,7 +46,7 @@ export const SignOut = () => {
   return (
     <button
       onClick={async () => {
-        await signOut()
+        await authClient.signOut()
         router.refresh()
       }}
     >
