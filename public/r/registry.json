@@ -5,7 +5,7 @@
   "items": [
     {
       "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-      "name": "app/api/auth",
+      "name": "app-api-auth",
       "type": "registry:file",
       "dependencies": [
         "better-auth",
