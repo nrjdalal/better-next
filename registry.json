@@ -1,0 +1,30 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry.json",
+  "name": "nrjdalal",
+  "homepage": "https://nrjdalal.com",
+  "items": [
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "app/api/auth",
+      "type": "registry:block",
+      "files": [
+        {
+          "type": "registry:block",
+          "path": ".env.example-auth"
+        },
+        {
+          "type": "registry:block",
+          "path": "drizzle.config.ts"
+        },
+        {
+          "type": "registry:block",
+          "path": "src/middleware.ts"
+        },
+        {
+          "type": "registry:block",
+          "path": "src/lib/auth/client.ts"
+        }
+      ]
+    }
+  ]
+}
