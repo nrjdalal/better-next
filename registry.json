@@ -29,7 +29,7 @@
           "path": "src/app/(auth)/x/page.tsx"
         }
       ],
-      "docs": "1. Rename and edit .env.example-auth\n2. Run `npm --env-file=.env drizzle-kit push` to generate postgres tables\n3. Run `npm run dev` to start the server\n4. Visit http://localhost:3000/auth/access/page to test signin/signup\n5. Visit http://localhost:3000/auth/x/page to test protected route"
+      "docs": "  --- What's next? ---\n\n  1. Rename `.env.example-auth` to `.env` and update the necessary environment variables.\n  2. Execute `npm --env-file=.env drizzle-kit push` to create PostgreSQL tables.\n  3. Start the development server with `npm run dev`.\n  4. Access http://localhost:3000/auth/access/page to test the sign-in/sign-up functionality.\n  5. Navigate to http://localhost:3000/auth/x/page to verify the protected route."
     }
   ]
 }
