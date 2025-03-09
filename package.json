@@ -7,6 +7,7 @@
     "dev": "next dev --turbopack",
     "lint": "next lint",
     "prepare": "if [ -z \"$VERCEL_ENV\" ]; then simple-git-hooks; fi",
+    "registry": "npx smart-registry@latest 'src/app/api/auth/[...all]/route.ts'",
     "start": "next start"
   },
   "simple-git-hooks": {

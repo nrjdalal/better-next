@@ -1,7 +1,7 @@
 Generate `registry` using the following command:
 
 ```bash
-npx smart-registry@canary 'src/app/api/auth/[...all]/route.ts'
+npx smart-registry@latest 'src/app/api/auth/[...all]/route.ts'
 ```
 
 ---
