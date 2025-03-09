@@ -17,12 +17,12 @@
       "files": [
         {
           "type": "registry:file",
-          "target": ".env.example-auth",
+          "target": "~/.env.example-auth",
           "path": ".env.example-auth"
         },
         {
           "type": "registry:file",
-          "target": "drizzle.config.ts",
+          "target": "~/drizzle.config.ts",
           "path": "drizzle.config.ts"
         },
         {

@@ -1,3 +1,11 @@
+Generate `registry` using the following command:
+
+```bash
+npx smart-registry@canary 'src/app/api/auth/[...all]/route.ts'
+```
+
+---
+
 # Awesome Template
 
 [![Twitter](https://img.shields.io/twitter/follow/nrjdalal_com?label=%40nrjdalal_com)](https://twitter.com/nrjdalal_com) [![Awesome](https://awesome.re/badge.svg)](https://github.com/nrjdalal/awesome-templates) [![GitHub](https://img.shields.io/github/stars/nrjdalal/awesome-templates?color=blue)](https://github.com/nrjdalal/awesome-templates)
@@ -13,7 +21,7 @@ npx gitpick@latest nrjdalal/awesome-templates/tree/main/next.js-apps/next.js
 If you wish to make changes to this template or add your own, please refer to the [contribution guidelines](https://github.com/nrjdalal/awesome-templates?tab=readme-ov-file#contributing).
 
 ---
-  
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
