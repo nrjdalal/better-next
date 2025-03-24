@@ -1,6 +1,6 @@
 # Better Next
 
-Add `better-next` using a single commad, or use the template itself, built for Next.js, PostgreSQL, Drizzle, shadcn/ui + Registry:
+Add `better-auth` using a single commad, or use the template itself, built for Next.js, PostgreSQL, Drizzle, shadcn/ui + Registry:
 
 ```bash
 npx shadcn@latest add https://github.com/nrjdalal/better-next/blob/main/public/r/app-api-auth.json
