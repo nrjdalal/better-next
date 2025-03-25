@@ -16,12 +16,6 @@ npx shadcn@latest add https://rdt.li/better-auth
 npx gitpick@latest nrjdalal/better-next
 ```
 
-Update `registry` using the following command:
-
-```bash
-npm run registry
-```
-
 ---
 
 # Awesome Template
