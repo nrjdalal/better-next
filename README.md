@@ -10,9 +10,6 @@ npx shadcn@latest add https://rdt.li/better-auth
 
 ![Demo CLI Run](https://github.com/user-attachments/assets/e9a38370-3ab3-4210-90f0-73fa12aa9148)
 
-<br/>
-<br/>
-
 - Or use this as an starter template:
 
 ```bash
