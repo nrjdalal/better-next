@@ -1,9 +1,22 @@
 # Better Next
 
-Add `better-auth` using a 🔥 single command 🔥 or use the template itself, built with Next.js, PostgreSQL, Drizzle, shadcn/ui + Registry:
+Add `better-auth` using a 🔥 single command 🔥 or use the template itself, built with Next.js, PostgreSQL, Drizzle, shadcn/ui + Registry
+
+- Run this command to add Better-Auth in existing/new Next.js app:
 
 ```bash
 npx shadcn@latest add https://rdt.li/better-auth
+```
+
+![Demo CLI Run](https://github.com/user-attachments/assets/e9a38370-3ab3-4210-90f0-73fa12aa9148)
+
+<br/>
+<br/>
+
+- Or use this as an starter template:
+
+```bash
+npx gitpick@latest nrjdalal/better-next
 ```
 
 Update `registry` using the following command:
