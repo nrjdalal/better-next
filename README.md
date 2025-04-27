@@ -1,28 +1,8 @@
-# Better Next
-
-Add `better-auth` using a 🔥 single command 🔥 or use the template itself, built with Next.js, PostgreSQL, Drizzle, shadcn/ui + Registry
-
-- Run this command to add Better-Auth in an existing/new Next.js app:
-
-```bash
-npx shadcn@latest add https://rdt.li/better-auth
-```
-
-![Demo CLI Run](https://github.com/user-attachments/assets/e9a38370-3ab3-4210-90f0-73fa12aa9148)
-
-- Or use this as a starter template:
-
-```bash
-npx gitpick@latest nrjdalal/better-next
-```
-
----
-
 # Awesome Template
 
 [![Twitter](https://img.shields.io/twitter/follow/nrjdalal_com?label=%40nrjdalal_com)](https://twitter.com/nrjdalal_com) [![Awesome](https://awesome.re/badge.svg)](https://github.com/nrjdalal/awesome-templates) [![GitHub](https://img.shields.io/github/stars/nrjdalal/awesome-templates?color=blue)](https://github.com/nrjdalal/awesome-templates)
 
-This template is bootstrapped with script [next.js-pro.sh](https://github.com/nrjdalal/awesome-templates/blob/main/.github/.scripts/next.js-pro.sh) and is part of the [awesome-templates](https://github.com/nrjdalal/awesome-templates) repository, to explore a curated collection of up-to-date templates for various projects and frameworks, refreshed every hour.
+This template is bootstrapped with script [next.js-pro.sh](https://github.com/nrjdalal/awesome-templates/blob/main/.github/.scripts/next.js-pro.sh) and is part of the [awesome-templates](https://github.com/nrjdalal/awesome-templates) repository, to explore a curated collection of up-to-date templates for various projects and frameworks, refreshed every 8 hours.
 
 ## Clone this template
 
