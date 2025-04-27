@@ -9,12 +9,19 @@
       "type": "registry:file",
       "dependencies": [
         "better-auth",
-        "drizzle-kit",
         "drizzle-orm",
         "next",
         "postgres"
       ],
+      "devDependencies": [
+        "drizzle-kit"
+      ],
       "files": [
+        {
+          "type": "registry:file",
+          "target": "app/api/auth/[...all]/route.ts",
+          "path": "src/app/api/auth/[...all]/route.ts"
+        },
         {
           "type": "registry:component",
           "target": "components/auth.tsx",
@@ -29,11 +36,6 @@
           "type": "registry:file",
           "target": "~/drizzle.config.ts",
           "path": "drizzle.config.ts"
-        },
-        {
-          "type": "registry:file",
-          "target": "app/api/auth/[...all]/route.ts",
-          "path": "src/app/api/auth/[...all]/route.ts"
         },
         {
           "type": "registry:file",

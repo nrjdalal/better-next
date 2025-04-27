@@ -4,12 +4,20 @@
   "type": "registry:file",
   "dependencies": [
     "better-auth",
-    "drizzle-kit",
     "drizzle-orm",
     "next",
     "postgres"
   ],
+  "devDependencies": [
+    "drizzle-kit"
+  ],
   "files": [
+    {
+      "type": "registry:file",
+      "target": "app/api/auth/[...all]/route.ts",
+      "content": "import { auth } from \"@/lib/auth\"\nimport { toNextJsHandler } from \"better-auth/next-js\"\n\nexport const { GET, POST } = toNextJsHandler(auth.handler)\n",
+      "path": "src/app/api/auth/[...all]/route.ts"
+    },
     {
       "type": "registry:component",
       "target": "components/auth.tsx",
@@ -27,12 +35,6 @@
       "target": "~/drizzle.config.ts",
       "content": "import { defineConfig } from \"drizzle-kit\"\n\nexport default defineConfig({\n  dialect: \"postgresql\",\n  dbCredentials: {\n    url: process.env.POSTGRES_URL!,\n  },\n  schema: \"./src/db/schema\",\n  out: \"./src/db/migrations\",\n})\n",
       "path": "drizzle.config.ts"
-    },
-    {
-      "type": "registry:file",
-      "target": "app/api/auth/[...all]/route.ts",
-      "content": "import { auth } from \"@/lib/auth\"\nimport { toNextJsHandler } from \"better-auth/next-js\"\n\nexport const { GET, POST } = toNextJsHandler(auth.handler)\n",
-      "path": "src/app/api/auth/[...all]/route.ts"
     },
     {
       "type": "registry:file",
